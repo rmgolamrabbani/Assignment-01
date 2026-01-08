@@ -10,8 +10,12 @@ body {
   box-sizing: border-box;
 }
 
+/* for nav */
+
+
+
 nav {
-  background-color: #4d5155;
+  background-color:white;
   padding: 1rem;
   justify-content: space-between;
   display: flex;
@@ -44,6 +48,115 @@ nav .nav-btn {
   cursor: pointer;
   font-size: 1rem;
 }
+
+/* for main/hero */
+
+#hero-section {
+ width: 1351px;
+ height: 641px;
+ padding-top: 70px;
+ padding-right: 120px;
+ padding-bottom:40px ;
+ border: #4d5155 solid 1px;
+ background: url(./assets/hero-bg.png);
+
+}
+
+#hero-section .hero-bg-image img {
+    width: 100%;
+    height: 100%;
+}
+
+#hero-section .hero-text {
+    width: 1340px;
+    height: 378px;
+    margin: 115px 120px 181px 120px;
+    border: red solid 1px;
+    align-items: center;
+    
+}
+
+#hero-section .hero-text .hero-arliy-access {
+    width: 229px;
+    height: 35px;
+    padding: 8px 12px;
+    color: #111827;
+    text-align: center;
+    margin-bottom: 24px;
+    background-color: white;
+    border-radius: 30px;
+    margin: auto;
+    text-align: center;
+}
+
+#hero-section .hero-text  .hero-big-text h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    letter-spacing: -0.1px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: white;
+}
+
+#hero-section .hero-text  .hero-big-text h2{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    margin-bottom: 24px;
+    color: #30B868;
+}
+
+
+
+#hero-section .hero-text  .hero-big-text p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: center;
+    margin-bottom: 32px;
+    color: white;
+}       
+
+#hero-section .hero-start-btn  button{
+
+    background-color: #6366f1;
+    color: rgb(128, 24, 24);
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+}
+
+
+
+#hero-section .hero-text .hero-start-btn{
+    margin: auto;
+    width: 456px;
+    height: 48px;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    gap: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
