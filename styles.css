@@ -8,7 +8,6 @@ body {
 * {
     margin: 0px;
     padding: 0px;
-    
 }
 
 
@@ -21,7 +20,7 @@ nav {
   padding: 1rem;
   justify-content: space-between;
   display: flex;
-      align-items: center;
+  align-items: center;
  
 }
 
@@ -67,17 +66,13 @@ nav .nav-btn {
  padding-right: 120px;
  padding-bottom:140px ;
  padding-left: 120px;
- border: #4d5155 solid 1px;
+ border: #b40833 solid 1px;
  background: url(./assets/hero-bg.png);
  background-repeat: no-repeat;
 
 }
 
-/* #hero-section .hero-bg-image img {
-   width: 1600px;
-   height: 400px;
-   
-} */
+
 
 #hero-section .hero-text {
     width: 1340px;
@@ -88,17 +83,23 @@ nav .nav-btn {
     
 }
 
-#hero-section .hero-text .hero-arliy-access {
+ #hero-section .hero-text .hero-arliy-access {
     width: 229px;
     height: 35px;
-    padding: 8px 12px;
-    color: #111827;
+    padding: 6px 12px;
+    color:#469165;
     text-align: center;
     margin-bottom: 24px;
     background-color: white;
     border-radius: 30px;
     margin: auto;
     text-align: center;
+} 
+
+#hero-section .hero-text .hero-arliy-access p {
+
+    align-items: center;
+    padding-top: 8px;
 }
 
 #hero-section .hero-text  .hero-big-text h1{
@@ -133,8 +134,8 @@ nav .nav-btn {
 
 #hero-section .hero-start-btn  button{
 
-    background-color: #6366f1;
-    color: rgb(128, 24, 24);
+    background-color: #469165;
+    color: white;
     border: none;
     padding: 0.75rem 1.5rem;
     border-radius: 0.375rem;
@@ -148,17 +149,33 @@ nav .nav-btn {
 
 
 
-#hero-section .hero-text .hero-start-btn{
+ #hero-section .hero-text .hero-start-btn{
     margin: auto;
     width: 456px;
     height: 48px;
+    font-style: Bold ;
     text-align: center;
     align-items: center;
     display: flex;
     gap: 10px;
+} 
+
+#hero-section .hero-text .hero-start-btn .btn-2 {
+
+    color: white;
+    border: none;
+    padding: 0.75rem 1.5rem;
+    border: 1px solid white;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    display: flex;
+    background: none;
+    
 }
-
-
 
 
 /* card section */
@@ -187,6 +204,18 @@ nav .nav-btn {
      margin-bottom: 48px;
  }  
 
+  #card-section .card-heading  h2 {
+    font-size: 48px;
+    margin-bottom: 16px;
+  }
+  #card-section .card-heading p{
+    color: #627382  ;
+  }
+
+  #card-section .card-box .cards h3{
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
 
 #card-section .card-box{
     width: 1360px;
@@ -199,14 +228,42 @@ nav .nav-btn {
     justify-content: center;
 }
 
-#card-section .card-box .cards img{
-    width: 60px;
-    height: 60px;
-    background-color: #F95555;
-    border-radius: 10px;
-    margin-bottom: 24px;
+#card-section .card-box .cards {
+    width: 270px;
+    height: 230px;
+    border: 1px solid burlywood;
+    border-radius: 8px;
+    box-shadow:#0000000F ;
+    align-items: center;
+    padding-top: 100px ;
+    padding-bottom: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    margin: auto;
+    justify-content: center;
+}
+
+
+
+#card-section .card-box .cards .cards-icon {
+    width: 64px;
+    height: 64px;
     align-items: center;
     justify-content: center;
+    background-color: #b40833;
+    margin: auto;
+    border: 1px solid burlywood;
+    border-radius: 50%;
+
+}
+
+
+
+#card-section .card-box .cards img{
+    justify-content: center;
+    margin: auto;
+    padding: 16px;
+  
 }
 
 
@@ -219,6 +276,7 @@ nav .nav-btn {
     height: 641px;
     display: flex;
     border: #0e0f0f solid 1px;
+    justify-content: center;
 }
 
 
@@ -232,7 +290,7 @@ nav .nav-btn {
     width: 700px;
     height: 398px;
     margin: 100px 0px;
-    border: red solid 1px;
+    padding-top: 30px;
     align-items: center;
     text-align: center;
 }
@@ -252,7 +310,7 @@ nav .nav-btn {
     letter-spacing: -0.1px;
     text-align: left;
     margin-bottom: 24px;
-    color: #111827;
+    color: #627382 ;
 }
 
 #brain-section .brain-text h2{
@@ -289,15 +347,21 @@ nav .nav-btn {
    }
 
 #ready-section .ready-container {
-    width: 1360px;
+    width: 1060px;
     height: 384px;
     padding: 40px 80px;
+    margin-left: 110px;
+    background-color: blanchedalmond;
+    border: 1px solid burlywood;
+    border-radius: 5px;
+    justify-content: center;
 }
 
 #ready-section .ready-container .ready-text h2{
     font-size: 36px;
     font-weight: 700;
     line-height: 44px;
+    padding-top: 100px;
     letter-spacing: -0.1px;
     text-align: center;
     margin-bottom: 24px;
@@ -316,7 +380,7 @@ nav .nav-btn {
 
 #ready-section .ready-container .ready-btn button{
 
-    background-color: #6366f1;
+    background-color: #30B868;
     color: white;
     border: none;
     padding: 0.75rem 1.5rem;
@@ -347,19 +411,19 @@ nav .nav-btn {
 #footer-section {
     width: 1600px;
     height: 345px;
-    padding-top: 70px;
+    padding-top: 120px;
     padding-right: 120px; 
-    padding-bottom:40px ;
+    padding-bottom:30px ;
     padding-left: 120px;
+    gap: 80px;
     border: #4d5155 solid 1px;
     background-color: #001931;
+    align-items: center;
    
    }
 
-/* footer section  */
-
 #footer-section .footer-container {
-    width: 1360px;
+    width: 1350px;
     height: 64px;
     margin: auto;
     padding: 100px 64px 120px 120px;
