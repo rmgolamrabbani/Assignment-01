@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-   font-family: "Roboto", sans-serif;
+   font-family: "Inter", sans-serif;
   font-optical-sizing: auto;
 }
 
@@ -29,10 +29,10 @@ body {
 nav li {
     list-style: none;
     display: inline;
-    margin-right: 1.5rem;
+    margin-right: 25px;
 }
 
-nav ul li a {
+nav  a {
   color: white;
   text-decoration: none;
   font-weight: 500;
@@ -42,10 +42,15 @@ nav ul li a {
 
 }
 
+#nav-section .nav-logo {
+
+    margin-left: 16px;
+}
+
 
 nav .nav-btn {
-    width: 164px;
     height: 44px;
+    padding: 0px 10px;
   background-color:#469165;
   color: white;
   border: none;
@@ -53,9 +58,8 @@ nav .nav-btn {
   cursor: pointer;
   font-size: 1rem;
   display: flex;
-  padding-left: 10px;
   align-items: center;
-  margin-right: 10px;
+  margin-right: 16px;
   
 }
 
@@ -95,7 +99,18 @@ nav .nav-btn {
     justify-content: center;
     text-align: center;
    
-} 
+}
+
+ .btn-1 img{
+    margin-left: 8px;
+}
+
+ .btn-2 i {
+    margin-right: 8px;
+
+}
+
+
 
 #hero-section .hero-text .hero-arliy-access p {
 
@@ -107,21 +122,15 @@ nav .nav-btn {
     font-size: 48px;
     font-weight: 700;
     line-height: 56px;
-    letter-spacing: -0.1px;
     text-align: center;
     margin-bottom: 24px;
     color: white;
+    margin-top: 16px;
+    opacity: 90%;
 }
-
-#hero-section .hero-text  .hero-big-text h2{
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 56px;
-    text-align: center;
-    margin-bottom: 24px;
-    color: #30B868;
+#hero-section .hero-text  .hero-big-text h1 span {
+    color:#30B868 ;
 }
-
 
 
 #hero-section .hero-text  .hero-big-text p{
@@ -152,7 +161,7 @@ nav .nav-btn {
 
  #hero-section .hero-text .hero-start-btn{
     margin: auto;
-    width: 456px;
+    width: 480px;
     height: 48px;
     font-style: Bold ;
     text-align: center;
@@ -186,8 +195,7 @@ nav .nav-btn {
     width: 1351px;
     height: 541px;
     padding-top: 70px;
-    padding-bottom:40px ;
-    background: url(./assets/card-section-bg.png);
+    padding-bottom:40px;
    
    }
 
@@ -208,6 +216,7 @@ nav .nav-btn {
     margin-bottom: 16px;
   }
   #card-section .card-heading p{
+    padding-top: 12px;
     color: #627382;
   }
 
@@ -215,10 +224,10 @@ nav .nav-btn {
     padding-top: 12px;
     padding-bottom: 12px;
   }
- #card-sectio .cards h3 p{
-    color:#627382 ;
- }
-
+#card-section .card-box .cards p {
+        color:#627382;
+        font-size: 16px;
+}
 
 
 
@@ -236,11 +245,10 @@ nav .nav-btn {
 }
 
 #card-section .card-box .cards {
-    width: 270px;
+    width: 250px;
     height: 230px;
-    border: 1px solid burlywood;
     border-radius: 8px;
-    box-shadow:#0000000F ;
+    box-shadow: rgba(0,0,0,0.06) 2px 0px 6px;
     align-items: center;
     padding-top: 100px ;
     padding-bottom: 20px;
@@ -256,7 +264,7 @@ nav .nav-btn {
     height: 64px;
     align-items: center;
     justify-content: center;
-    background-color: #b40833;
+    background-color:#F95555;
     margin: auto;
     border: 1px solid burlywood;
     border-radius: 50%;
@@ -278,26 +286,31 @@ nav .nav-btn {
 
 
 #brain-section {
-    width: 1351px;
+ 
+    max-width: 1351px;
     height: 641px;
     display: flex;
     justify-content: center;
-}
+    padding: 50px;
+}   
+
+    
 
 
 #brain-section .brain-image img {
+   
     width: 100%;
-    height: 100%;
 }
 
 
+
 #brain-section .brain-text {
-    width: 700px;
-    height: 398px;
-    margin: 100px 0px;
-    padding-top: 30px;
-    align-items: center;
-    text-align: center;
+    max-width: 60%;
+    padding-top: 50px;
+}
+
+.brain-image {
+    width: 40%;
 }
 
 #brain-section .brain-text .brain-text-list .brain-text-list-items {
@@ -395,6 +408,16 @@ nav .nav-btn {
     margin: auto;
     display: flex;
 }
+
+#ready-section .ready-container .ready-btn button img{
+    margin-left: 8px;
+}
+
+
+
+
+
+
 
 #ready-section .ready-container .ready-btn p{
     width: 500px;
